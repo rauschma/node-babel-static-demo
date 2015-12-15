@@ -1,7 +1,12 @@
 {
   "devDependencies": {
     "babel-cli": "^6.2.0",
+    "babel-polyfill": "^6.3.14",
     "babel-preset-es2015-node5": "^1.1.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.2.0",
+    "source-map-support": "^0.4.0"
   },
   "scripts": {
     "build": "babel es6 --out-dir es5 --source-maps",
@@ -13,7 +18,6 @@
       "es2015-node5"
     ]
   },
-  "dependencies": {
-    "source-map-support": "^0.4.0"
-  }
+  "author": "Axel Rauschmayer",
+  "license": "MIT"
 }

@@ -1,5 +1,4 @@
-import { install } from 'source-map-support';
-install();
+import 'source-map-support/register';
 
 import 'babel-polyfill';
 
